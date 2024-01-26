@@ -1,0 +1,1031 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.16f1 (d2c21f0ef2f1) revision 13812255'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'en' Physical Memory: 16309 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/531508/Animation Time
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+63122
+Successfully changed project path to: C:/Users/531508/Animation Time
+C:/Users/531508/Animation Time
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18888] Host "[IP] 172.27.172.122 [Port] 0 [Flags] 2 [Guid] 1654932633 [EditorId] 1654932633 [Version] 1048832 [Id] WindowsEditor(7,L-CB346-21252) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [18888] Host "[IP] 172.27.172.122 [Port] 0 [Flags] 2 [Guid] 1654932633 [EditorId] 1654932633 [Version] 1048832 [Id] WindowsEditor(7,L-CB346-21252) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 15.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/531508/Animation Time/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x2188)
+    Vendor:   NVIDIA
+    VRAM:     3949 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011817 seconds.
+- Loaded All Assemblies, in  0.391 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.270 seconds
+Domain Reload Profiling: 658ms
+	BeginReloadAssembly (121ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (148ms)
+		LoadAssemblies (118ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (145ms)
+				TypeCache.ScanAssembly (130ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (270ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (209ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (145ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.726 seconds
+Refreshing native plugins compatible for Editor in 4.91 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.727 seconds
+Domain Reload Profiling: 1447ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (452ms)
+		LoadAssemblies (359ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (195ms)
+			TypeCache.Refresh (164ms)
+				TypeCache.ScanAssembly (149ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (728ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (574ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (399ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 5.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4925 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (0.8 MB). Loaded Objects now: 5381.
+Memory consumption went from 210.9 MB to 210.1 MB.
+Total: 3.819100 ms (FindLiveObjects: 0.497100 ms CreateObjectMapping: 0.131700 ms MarkObjects: 2.655800 ms  DeleteObjects: 0.533300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 852896.404720 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Characters/Animator/Mask_LowerBody.mask
+  artifactKey: Guid(f34433e648b38134b89fe27b9e6955cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Characters/Animator/Mask_LowerBody.mask using Guid(f34433e648b38134b89fe27b9e6955cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8041b2d559ee4d5c554bc5dd16b7be93') in 0.021231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Characters/Animator/Mremireh O DesbiensTimeline.playable
+  artifactKey: Guid(0ceb3db9059e5664681e4ec895c5c7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Characters/Animator/Mremireh O DesbiensTimeline.playable using Guid(0ceb3db9059e5664681e4ec895c5c7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6276d110b67403d47a09c6f96fc3e584') in 0.005937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Characters/Animator/Mask_Head.mask
+  artifactKey: Guid(f4bf3f6dc42479e47b1fd0e457094fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Characters/Animator/Mask_Head.mask using Guid(f4bf3f6dc42479e47b1fd0e457094fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e49fa4a743860db9abcb7a04a5e102') in 0.001758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Characters/Animator/Animations.fbx
+  artifactKey: Guid(d55a3dafe23105e409ee70d6605cbd49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Characters/Animator/Animations.fbx using Guid(d55a3dafe23105e409ee70d6605cbd49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bbe3786e7f8d7710fce5c806054fa4a') in 0.028870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 79
+========================================================================
+Received Import Request.
+  Time since last request: 111.488857 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonCity/Materials/Billboard_Mat.mat
+  artifactKey: Guid(53cf5c0ff424ff9458c56526516b63ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonCity/Materials/Billboard_Mat.mat using Guid(53cf5c0ff424ff9458c56526516b63ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4accfec7fbc7cd5a5a28d4c3007d60fd') in 0.304910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Textures/Building02b.png
+  artifactKey: Guid(b1c2366c5c7bdd74498e8a8f7c79e34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Textures/Building02b.png using Guid(b1c2366c5c7bdd74498e8a8f7c79e34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721f5ea7a9736ca9e2da33dad3e8b214') in 0.045123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Models/Collision/billboard_mesh_Convex 1.asset
+  artifactKey: Guid(5b2d2c7d31ee1934a92d5dbe8fe46327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Models/Collision/billboard_mesh_Convex 1.asset using Guid(5b2d2c7d31ee1934a92d5dbe8fe46327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e060aec4708b888873bab5ccc5fdd47c') in 0.089837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Models/Collision/billboard_mesh_Convex.asset
+  artifactKey: Guid(aabed5a0d93fd6943a3853bb411d83b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Models/Collision/billboard_mesh_Convex.asset using Guid(aabed5a0d93fd6943a3853bb411d83b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f3cd982fc0eb36279213600c5ce28e') in 0.025109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonCity/Textures/BillboardAds.png
+  artifactKey: Guid(4358b945d59bcc54a8d357279a0d3567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonCity/Textures/BillboardAds.png using Guid(4358b945d59bcc54a8d357279a0d3567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b060309ef68bc8bc1e3c37bc4adde518') in 0.024685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Models/billboard_mesh.fbx
+  artifactKey: Guid(fc48e840b8dd60143be5d6a16cee7dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Models/billboard_mesh.fbx using Guid(fc48e840b8dd60143be5d6a16cee7dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '398599183fc914d49f3935ac53586e6e') in 0.030183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Materials/Building02_Video.mat
+  artifactKey: Guid(473a182fd4f82f7488ba8bc5c8f394db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Materials/Building02_Video.mat using Guid(473a182fd4f82f7488ba8bc5c8f394db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59779d309eb7abaffbc728be5c1f11dc') in 0.018716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Materials/Building01_Red.mat
+  artifactKey: Guid(91ba25c5e9aad2e4d8693d1840f12d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Materials/Building01_Red.mat using Guid(91ba25c5e9aad2e4d8693d1840f12d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b68f240883fb43a93957b750031a84') in 0.021215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Materials/Building01_Brown.mat
+  artifactKey: Guid(1881dcc2b2e53244f86e1589ace55fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Materials/Building01_Brown.mat using Guid(1881dcc2b2e53244f86e1589ace55fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108a4c9dbeb18d720ebc1cfc6e253073') in 0.018189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleTown/Textures/Building01c.png
+  artifactKey: Guid(268a337a7b3dfcf468d96a4b98d578ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleTown/Textures/Building01c.png using Guid(268a337a7b3dfcf468d96a4b98d578ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1eb971dbd345de2ac1efe6bf3f377d') in 0.025374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.374 seconds
+Refreshing native plugins compatible for Editor in 4.70 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 15.345 seconds
+Domain Reload Profiling: 17713ms
+	BeginReloadAssembly (194ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (118ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (2011ms)
+		LoadAssemblies (2093ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (15345ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (518ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (355ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 5.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4780 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (0.7 MB). Loaded Objects now: 5469.
+Memory consumption went from 193.9 MB to 193.1 MB.
+Total: 4.997200 ms (FindLiveObjects: 0.683200 ms CreateObjectMapping: 0.219200 ms MarkObjects: 3.440800 ms  DeleteObjects: 0.652900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 179.566211 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Characters/Animator/Zombies_5.0.controller
+  artifactKey: Guid(92c93b80307cf90438fcfadd52eab10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Characters/Animator/Zombies_5.0.controller using Guid(92c93b80307cf90438fcfadd52eab10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09af582a44fde9c93c86a5f1eb86267d') in 0.070885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 31.437362 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/Cloud_01.fbx
+  artifactKey: Guid(d6a294bdf7386d64f8c846e5ac334ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/Cloud_01.fbx using Guid(d6a294bdf7386d64f8c846e5ac334ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30b1b867a618e8ba2b2ad217d5bc640') in 0.265623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_DamagedConcrete_Convex.asset
+  artifactKey: Guid(7288f29a727e1674f98681e4c4bfe607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_DamagedConcrete_Convex.asset using Guid(7288f29a727e1674f98681e4c4bfe607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4484243208ee4b5b4c6e47bb15ec3827') in 0.019514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_DesertSquare_01_Convex.asset
+  artifactKey: Guid(db1c320765f305148a78a293bd8b5401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_DesertSquare_01_Convex.asset using Guid(db1c320765f305148a78a293bd8b5401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24407dc65b5d0552ce3092eb841cc534') in 0.014800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_Dirt_02.fbx
+  artifactKey: Guid(f090aeb0d1e59ab49aaf7c56f9175d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_Dirt_02.fbx using Guid(f090aeb0d1e59ab49aaf7c56f9175d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76950c9f5c1c033a91acf1b815b58259') in 0.020283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_GrassSection_Raised_01.fbx
+  artifactKey: Guid(599adccf068d806429d8d2de90fbc0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_GrassSection_Raised_01.fbx using Guid(599adccf068d806429d8d2de90fbc0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed1e18fc96f76200dd34ca819561ef9') in 0.019682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_Dirt.fbx
+  artifactKey: Guid(fe6a2db9e55d0aa489159323f66abe4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_Dirt.fbx using Guid(fe6a2db9e55d0aa489159323f66abe4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b445de7049eb74be836eb85d7325c97c') in 0.013273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_DirtCircle.fbx
+  artifactKey: Guid(6ab0a1c832138ac4ca054823075c4893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_DirtCircle.fbx using Guid(6ab0a1c832138ac4ca054823075c4893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76f47d9ce7c76872855825c96c72af2') in 0.018147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_Highway_Broken_01.fbx
+  artifactKey: Guid(50e2f60b4cb03bc4697739fcbcc6f157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_Highway_Broken_01.fbx using Guid(50e2f60b4cb03bc4697739fcbcc6f157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61a80616673f6e8d40edcc881b11044') in 0.021165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_Concrete_Convex.asset
+  artifactKey: Guid(cfd2dd401ea217646a3dc13b0ec81068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_Concrete_Convex.asset using Guid(cfd2dd401ea217646a3dc13b0ec81068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8254b11637ea705eae78552cdca1d7') in 0.021916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_ForestTile_04_Convex.asset
+  artifactKey: Guid(d3c2684417757e44a807d16e024289d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_ForestTile_04_Convex.asset using Guid(d3c2684417757e44a807d16e024289d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4264637938c33331be528fee9bcb71c0') in 0.026077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_ENV_BeachSection_InnerCorner_01_Convex.asset
+  artifactKey: Guid(b346978fd7f0e6848b99f142848cdae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_ENV_BeachSection_InnerCorner_01_Convex.asset using Guid(b346978fd7f0e6848b99f142848cdae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed5c29e9206c92d90c3d8b940a4317c2') in 0.025962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_Campsite_01.fbx
+  artifactKey: Guid(9dcf83bc4e2c36a4fbf79e0d51c6a5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_Campsite_01.fbx using Guid(9dcf83bc4e2c36a4fbf79e0d51c6a5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77503c5129ed98376e264b80dfbdfa45') in 0.035731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_Court.fbx
+  artifactKey: Guid(ddd402de8d1820b4b8dcf877167a31ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_Court.fbx using Guid(ddd402de8d1820b4b8dcf877167a31ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c388a45b23ba9a35f715b7ba37c6dfe0') in 0.021286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_Dirt_Corner_01_Convex.asset
+  artifactKey: Guid(911693d4393e5a645a28d1cc5298c45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_Dirt_Corner_01_Convex.asset using Guid(911693d4393e5a645a28d1cc5298c45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c9b4b93ea64716c0621b7f76fd5382') in 0.015093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_HillTile_Corner_01_Convex.asset
+  artifactKey: Guid(038ab2ba500edfc488fc69eb74cd73a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_HillTile_Corner_01_Convex.asset using Guid(038ab2ba500edfc488fc69eb74cd73a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8162945c1b5ccf50fcd7f0adc66fc81e') in 0.015035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_Highway_Broken_01_Convex.asset
+  artifactKey: Guid(bd81424d608534e4eabc2d9fe2fa9ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_Highway_Broken_01_Convex.asset using Guid(bd81424d608534e4eabc2d9fe2fa9ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '398cce6722dac027f64b038fcb360db8') in 0.012911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_DirtCircle2.fbx
+  artifactKey: Guid(6093d9415e3233a479406314d91ef250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_DirtCircle2.fbx using Guid(6093d9415e3233a479406314d91ef250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0fa64fd0233b7e7dab0c19ce55d3c96') in 0.019677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_Highway_Broken_03_Convex.asset
+  artifactKey: Guid(3d15f0bda8c46ff448d8a4297f7a2c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_Highway_Broken_03_Convex.asset using Guid(3d15f0bda8c46ff448d8a4297f7a2c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce459cff6a65895e07e9df57bfabe67') in 0.015527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_Highway_Broken_02_Convex.asset
+  artifactKey: Guid(c7cb79a0009631a458c0b37c91b90a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_Highway_Broken_02_Convex.asset using Guid(c7cb79a0009631a458c0b37c91b90a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '472cf759f953cba414c97d0e6c7b3339') in 0.014058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_ManholeClosed.fbx
+  artifactKey: Guid(180547142b3e524499e995af1584c3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_ManholeClosed.fbx using Guid(180547142b3e524499e995af1584c3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8ee2387b68dd215e44e4927fa7f67f') in 0.017759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_Highway_Broken_03.fbx
+  artifactKey: Guid(1275df63068be7e4a90bd2b9c8874cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_Highway_Broken_03.fbx using Guid(1275df63068be7e4a90bd2b9c8874cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5f645cdda17749f958356ab4a62182') in 0.019357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_ENV_BeachSection_OuterCorner_01.fbx
+  artifactKey: Guid(e6f65875bce569941bff8ea7072d7d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_ENV_BeachSection_OuterCorner_01.fbx using Guid(e6f65875bce569941bff8ea7072d7d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02c4e588a12ea46378270a04c0df03e') in 0.018066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_ENV_BeachSection_OuterCorner_01_Convex.asset
+  artifactKey: Guid(1c1a7b85a5ae19a43853b53d406cf060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_ENV_BeachSection_OuterCorner_01_Convex.asset using Guid(1c1a7b85a5ae19a43853b53d406cf060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4fb705a7c54dcf0b3bfc01c0ecd854b') in 0.016305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/Cloud_03.fbx
+  artifactKey: Guid(1b2c48376dafb734ab58d2226e1b7747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/Cloud_03.fbx using Guid(1b2c48376dafb734ab58d2226e1b7747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e7a62667fc1487196b15f770345e6b3') in 0.017622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_ForestTile_03.fbx
+  artifactKey: Guid(78d1d15541f57d748bbd9bb6d6894424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_ForestTile_03.fbx using Guid(78d1d15541f57d748bbd9bb6d6894424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2b509449595849db2154b4680e643c') in 0.017301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_Blood_01.fbx
+  artifactKey: Guid(1647bebce9be7ff4f8c6e095d3001b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_Blood_01.fbx using Guid(1647bebce9be7ff4f8c6e095d3001b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d57b10ffe7ba62e7efeab32b9e2ed73') in 0.011900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_DamagedConcrete.fbx
+  artifactKey: Guid(5a27a61256eef7c44b6503578d5bcb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_DamagedConcrete.fbx using Guid(5a27a61256eef7c44b6503578d5bcb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd53ac8c310ab45fb9ed33b19ba5d5a4') in 0.018175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/Cloud_05.fbx
+  artifactKey: Guid(5d92abef242cfcc4781ac2ae661d8fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/Cloud_05.fbx using Guid(5d92abef242cfcc4781ac2ae661d8fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665e461ba3c346e611ddb0965b6c38fa') in 0.018759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_ForestTile_01_Convex.asset
+  artifactKey: Guid(ff614e829b52f29479765130b936697f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_ForestTile_01_Convex.asset using Guid(ff614e829b52f29479765130b936697f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f74dbf57b4069b6a2dbd8f168fc5d0') in 0.027551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_Highway_Broken_04_Convex.asset
+  artifactKey: Guid(acb1faa1f1d910448b691808d49def2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_Highway_Broken_04_Convex.asset using Guid(acb1faa1f1d910448b691808d49def2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0c7830d852eb731214b26bafe4f020') in 0.014254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_BeachSection_01.fbx
+  artifactKey: Guid(bde7d897843eae741b446b4d2632a3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_BeachSection_01.fbx using Guid(bde7d897843eae741b446b4d2632a3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef759c070876c495c97cf9914cb7ccf') in 0.017971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_Dirt_02_Convex.asset
+  artifactKey: Guid(cfbc9faf60a9ff84eb4a44fa2a570757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_Dirt_02_Convex.asset using Guid(cfbc9faf60a9ff84eb4a44fa2a570757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534d9fab75ddea9e390641748d78b6b0') in 0.014311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/Cloud_04.fbx
+  artifactKey: Guid(5df7daeab707230409664c66ca47c5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/Cloud_04.fbx using Guid(5df7daeab707230409664c66ca47c5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a69c8efa8b3f7d0d8527703854cd9b8') in 0.018783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_ForestTile_04.fbx
+  artifactKey: Guid(87cc3b2b3db0b6d4aa00bf48e80caf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_ForestTile_04.fbx using Guid(87cc3b2b3db0b6d4aa00bf48e80caf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a7073d98c8678451030b2f38ed8ac51') in 0.020251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_Dirt_03.fbx
+  artifactKey: Guid(2de7e4ae5b3a1a34b859d2c5e964ca5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_Dirt_03.fbx using Guid(2de7e4ae5b3a1a34b859d2c5e964ca5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0c9406c0c9823299d4aaf9550b7886') in 0.018981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_BeachSection_01_Convex.asset
+  artifactKey: Guid(560fff1ce8ef5124ebc957508ebaed58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_BeachSection_01_Convex.asset using Guid(560fff1ce8ef5124ebc957508ebaed58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7041d297c70428124fe792d3265a2dc') in 0.014380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_HillTile_01_Convex.asset
+  artifactKey: Guid(6c859189411d06e47852c5711561e8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_HillTile_01_Convex.asset using Guid(6c859189411d06e47852c5711561e8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df20ab29c17c48d3e817645505b0ac3') in 0.015302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_DirtCircle_Convex.asset
+  artifactKey: Guid(8bcb218c9a226764390d2080fc604236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_DirtCircle_Convex.asset using Guid(8bcb218c9a226764390d2080fc604236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a4fffe40423a58481daae10fda68cbc') in 0.016355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_Dirt_03_Convex.asset
+  artifactKey: Guid(e0a689fc0fbdef448b7a75191960fb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_Dirt_03_Convex.asset using Guid(e0a689fc0fbdef448b7a75191960fb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418b62a7d330bf24e163c40e47db937e') in 0.013979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_HillTile_01.fbx
+  artifactKey: Guid(bd96b5149ad614742bf75c2ff8d8d49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_HillTile_01.fbx using Guid(bd96b5149ad614742bf75c2ff8d8d49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48f44fc9bf6fd25b3b0c865a1475eff') in 0.018477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Characters/Materials/Default_Material.mat
+  artifactKey: Guid(31cbef0dd561a0d42830922833a94b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Characters/Materials/Default_Material.mat using Guid(31cbef0dd561a0d42830922833a94b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The file 'Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Characters/Materials/Default_Material.mat' seems to have merge conflicts. Please open it in a text editor and fix the merge.
+ -> (artifact id: 'c0600c7acda8758ce025a17b181fc206') in 0.001345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_ForestTile_03_Convex.asset
+  artifactKey: Guid(a06f027608ec1b84ab11f5c7428e9d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_ForestTile_03_Convex.asset using Guid(a06f027608ec1b84ab11f5c7428e9d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6761166ea87e9f9bf92c7e2cf5b06f41') in 0.015337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_ForestTile_02.fbx
+  artifactKey: Guid(19086599e25234f43a9672022d03dc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_ForestTile_02.fbx using Guid(19086599e25234f43a9672022d03dc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d99b31b6c17c0d6251a1710a5ed610') in 0.018843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_Concrete.fbx
+  artifactKey: Guid(76254b4a1339aa24aa6f075338cc3176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Environment/SA_Env_Concrete.fbx using Guid(76254b4a1339aa24aa6f075338cc3176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610bcfcb2679e57c5b591bcf2ea6ba8e') in 0.012916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 1.019732 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Characters/SA_Character.fbx
+  artifactKey: Guid(dbbc53a6bc8f5c64bb234194ce1380aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Characters/SA_Character.fbx using Guid(dbbc53a6bc8f5c64bb234194ce1380aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793bebba63aad80b7ee2a278027a2541') in 0.394537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 251
+========================================================================
+Received Import Request.
+  Time since last request: 1.460627 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_Apartment_Damaged_01.fbx
+  artifactKey: Guid(633ca997228e0c14aaea4e1d41b6c808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_Apartment_Damaged_01.fbx using Guid(633ca997228e0c14aaea4e1d41b6c808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9550a2dfc54bfd96050c0817a2e10a28') in 0.026701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_BioTent_01_Convex.asset
+  artifactKey: Guid(5caeb96d4c171894a995e89cc22a370b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_BioTent_01_Convex.asset using Guid(5caeb96d4c171894a995e89cc22a370b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d06503fb155f493f59a1d27b191226b') in 0.012848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_AutoRepair_Damaged_01.fbx
+  artifactKey: Guid(f8536a15368edda448408652a1608558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_AutoRepair_Damaged_01.fbx using Guid(f8536a15368edda448408652a1608558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd20742c695cb03f2c70dd5a5b0a17b') in 0.031544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_Building_Damaged_02.fbx
+  artifactKey: Guid(5a8685150ecdc344293810a8541df82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_Building_Damaged_02.fbx using Guid(5a8685150ecdc344293810a8541df82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce3d307ff37361624fe69161d1628a2') in 0.029197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_Building_Damaged_03_Convex 1.asset
+  artifactKey: Guid(2817685c6ba8ffc4181748ff9d0027a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_Building_Damaged_03_Convex 1.asset using Guid(2817685c6ba8ffc4181748ff9d0027a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e736e04935e35531197cab7a581574') in 0.023258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_BurntHouse_01_Convex.asset
+  artifactKey: Guid(2249d34e09f9fa6488b4405c12e8e026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_BurntHouse_01_Convex.asset using Guid(2249d34e09f9fa6488b4405c12e8e026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc529cfc674ff147db83234a9851377c') in 0.015434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_Bunker.fbx
+  artifactKey: Guid(eea4527c26bd94544adfa847861d2e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_Bunker.fbx using Guid(eea4527c26bd94544adfa847861d2e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a777e9c12c4f4edf9dd15e68607214') in 0.016585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_CoolingTowerLarge_Damaged_01_Convex.asset
+  artifactKey: Guid(8c59480d4e869e54ebd134286d3e08be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_CoolingTowerLarge_Damaged_01_Convex.asset using Guid(8c59480d4e869e54ebd134286d3e08be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddbd15dfe0671cc255363118c8ce98d3') in 0.013512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_CoolingTowerSmall_Rubble_01_Convex.asset
+  artifactKey: Guid(512cbe7b36ba03c43971dc68188e391c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_CoolingTowerSmall_Rubble_01_Convex.asset using Guid(512cbe7b36ba03c43971dc68188e391c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a87f7b59f2721d4eb18c58cd036cd3') in 0.013928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_Diner_Damaged_01.fbx
+  artifactKey: Guid(82fa5e123900c464ea14c0753dc38631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_Diner_Damaged_01.fbx using Guid(82fa5e123900c464ea14c0753dc38631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df4cb82ae79a8dfc855a977b2c714a8') in 0.029705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalBuildingMain_01.fbx
+  artifactKey: Guid(8bd5db31b8ddce4449d18baca5f9896f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalBuildingMain_01.fbx using Guid(8bd5db31b8ddce4449d18baca5f9896f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c136751f1c5a15e8799d87ec63a3d0eb') in 0.030239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_BioTent_01.fbx
+  artifactKey: Guid(bab9fc0f7981e8944a72f6c69338df32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_BioTent_01.fbx using Guid(bab9fc0f7981e8944a72f6c69338df32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671ef7fa88b30756b37cd2d44ef43c05') in 0.017378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalBuildingMain_Damaged_01_Convex 2.asset
+  artifactKey: Guid(e605ac7baffa8814f9a385fb8ef090a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalBuildingMain_Damaged_01_Convex 2.asset using Guid(e605ac7baffa8814f9a385fb8ef090a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8872f49b7343321dfbf17a8c78f7e2d') in 0.071451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalOffice_Damaged_01.fbx
+  artifactKey: Guid(5379f222c61ebb948b1008e735af5134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalOffice_Damaged_01.fbx using Guid(5379f222c61ebb948b1008e735af5134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53decd554f40965faa2a41afe35efbc2') in 0.028837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalFountain_Damaged_01.fbx
+  artifactKey: Guid(ab5ce7f4342ba914299c3788c8984eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalFountain_Damaged_01.fbx using Guid(ab5ce7f4342ba914299c3788c8984eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6442e5e723e3cd9beb0d1b80d46f36') in 0.046431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalBuildingMain_Damaged_01_Convex.asset
+  artifactKey: Guid(2ddcec6ac4ab5eb4fba8e1edf63f5895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalBuildingMain_Damaged_01_Convex.asset using Guid(2ddcec6ac4ab5eb4fba8e1edf63f5895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4ac817af589f618fda1a68f323de4e') in 0.023580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalBuilding_Damaged_01.fbx
+  artifactKey: Guid(655dd9d65d925f34887f6593da809b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalBuilding_Damaged_01.fbx using Guid(655dd9d65d925f34887f6593da809b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9da974b2e1998bcc90667bf62d77ca') in 0.029079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_CoolingTowerSmall_Damaged_01.fbx
+  artifactKey: Guid(7b5ef9fc8b68ae94e87c4459ac1b8924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_CoolingTowerSmall_Damaged_01.fbx using Guid(7b5ef9fc8b68ae94e87c4459ac1b8924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f7e6b959f2b6fb52ebe1b4ddd488a3d') in 0.018120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_CoffeeShop_Damaged_01.fbx
+  artifactKey: Guid(fb05055bdf7d393469f036a23dbcc0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_CoffeeShop_Damaged_01.fbx using Guid(fb05055bdf7d393469f036a23dbcc0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c31ffc00867b65a9e18158a5b08e7c') in 0.036150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalFountain_Damaged_01_Convex 1.asset
+  artifactKey: Guid(dcd7712295cc51040a2fdfba724a2c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalFountain_Damaged_01_Convex 1.asset using Guid(dcd7712295cc51040a2fdfba724a2c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d22c5af25c0374964cc49f721275f2c') in 0.030230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalBuildingSmall_01.fbx
+  artifactKey: Guid(63d84b68632df044586200f6517b3ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalBuildingSmall_01.fbx using Guid(63d84b68632df044586200f6517b3ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9845de61292b90bbb9bd5eb07a3cea6d') in 0.018566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalOffice_01_Convex.asset
+  artifactKey: Guid(68fdb00d2f4c66b4a8e6b5a1180cd8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalOffice_01_Convex.asset using Guid(68fdb00d2f4c66b4a8e6b5a1180cd8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b80d65861bf690a4ecd4ec7f802fe80') in 0.015131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalBuildingSmall_01_Convex.asset
+  artifactKey: Guid(0b285c694c39edd458ea4c02b6c6a17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalBuildingSmall_01_Convex.asset using Guid(0b285c694c39edd458ea4c02b6c6a17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '018fec55fb39f9ee163676ac0783bc60') in 0.015087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_Bunker_Convex.asset
+  artifactKey: Guid(690165cb4837b534d8b03d15d471c2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_Bunker_Convex.asset using Guid(690165cb4837b534d8b03d15d471c2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b6f785cd09aa3875453cd9f700619c') in 0.020320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_Diner_01.fbx
+  artifactKey: Guid(d1d0006e20787d24794e104ac29c8e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_Diner_01.fbx using Guid(d1d0006e20787d24794e104ac29c8e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9bcbcf4cc7a7d7e1ba2496ddffd3262') in 0.020739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalBuildingSmall_Damaged_01.fbx
+  artifactKey: Guid(d64bcfbb70a98aa4da43081bf5fa51be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalBuildingSmall_Damaged_01.fbx using Guid(d64bcfbb70a98aa4da43081bf5fa51be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9456db0f7b67fe5057f7f8211759dc') in 0.027893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_Church_Damaged_01.fbx
+  artifactKey: Guid(54bef144aac721642a80d8c8ea6af34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_Church_Damaged_01.fbx using Guid(54bef144aac721642a80d8c8ea6af34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6b598207b811a9d50eb911f30bb52aa') in 0.031670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_Building_Damaged_02_Convex.asset
+  artifactKey: Guid(4d29fd26982240d4c8fa41114796cbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_Building_Damaged_02_Convex.asset using Guid(4d29fd26982240d4c8fa41114796cbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55b93a8f12e94ee541351186a2666cd') in 0.016219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalBuildingMain_01_Convex.asset
+  artifactKey: Guid(ab2ba7ac50f33164cbcd958d58d78bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalBuildingMain_01_Convex.asset using Guid(ab2ba7ac50f33164cbcd958d58d78bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0822fed27fb3827dc0e7745dbd25fb5') in 0.015995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalOffice_Damaged_01_Convex.asset
+  artifactKey: Guid(dcc4016be9c0fd042a0c602cfe4d71d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalOffice_Damaged_01_Convex.asset using Guid(dcc4016be9c0fd042a0c602cfe4d71d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90485ba3e7b39c97be2073119699dd5b') in 0.016459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalBuildingMain_01_Convex 2.asset
+  artifactKey: Guid(5e2a51e40693a654286846f3140bc4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalBuildingMain_01_Convex 2.asset using Guid(5e2a51e40693a654286846f3140bc4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3f7242da01dd2498885fc8755363d7') in 0.068348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 29.856898 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/FX/FX_DirtSplatter.prefab
+  artifactKey: Guid(48a83667d6d13e14ab5bc0aefb0a6a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/FX/FX_DirtSplatter.prefab using Guid(48a83667d6d13e14ab5bc0aefb0a6a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79777e88aa8bfa1effc0a8e39b1ab553') in 0.027168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/FX/SA_FX_Lightray.fbx
+  artifactKey: Guid(e27c39df43b866b469e491273c885c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/FX/SA_FX_Lightray.fbx using Guid(e27c39df43b866b469e491273c885c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06db1ba245e34ced1abcdc3418b3206') in 0.029598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/FX/FX_TireSmoke.prefab
+  artifactKey: Guid(13d4b1dc067a2604aa9b6be7401f0d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/FX/FX_TireSmoke.prefab using Guid(13d4b1dc067a2604aa9b6be7401f0d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc8ee8a7af204e69da3ec8e56d9462a0') in 0.029777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/FX/FX_FlameThrower.prefab
+  artifactKey: Guid(8c1f1e09e6c9ed947bdbd6914ae8f9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/FX/FX_FlameThrower.prefab using Guid(8c1f1e09e6c9ed947bdbd6914ae8f9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85fbff87ebace948541a9629499029a') in 0.026824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/FX/SA_FX_PoolSplash_03.fbx
+  artifactKey: Guid(104d9f0364dc5e8438f4350ff7e726dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/FX/SA_FX_PoolSplash_03.fbx using Guid(104d9f0364dc5e8438f4350ff7e726dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cdb1d3bbbf6f9f90d031ae685cf0a5d') in 0.041205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/FX/SA_FX_GunFlash.fbx
+  artifactKey: Guid(50a5b61475aba5649a793b8d076e8681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/SimpleApocalypse/FX/SA_FX_GunFlash.fbx using Guid(50a5b61475aba5649a793b8d076e8681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ade10dd02144f438243606e04c07f96') in 0.062150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
